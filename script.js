@@ -8,6 +8,15 @@ changeBackgroundButton.addEventListener("click", function() {
   this.style.backgroundColor = getRandomColor();
 });
 
+/* function getRandomColor() {
+  const letters = getLetters();
+  let color = '#';
+  for (var i = 0; i < 6; i++) {
+    color += letters[Math.floor(Math.random() * 16)];
+  }
+  return color;
+} */
+
 function getRandomColor() {
   const letters = getLetters();
   let color = '#';
