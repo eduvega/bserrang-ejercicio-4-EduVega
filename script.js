@@ -8,6 +8,7 @@ changeBackgroundButton.addEventListener("click", function() {
   this.style.backgroundColor = getRandomColor();
 });
 
+//funcion original:
 /* function getRandomColor() {
   const letters = getLetters();
   let color = '#';
